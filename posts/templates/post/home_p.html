@@ -1,0 +1,6 @@
+<h1>Message board homepage</h1>
+<ul>
+    {% for p in all_post_list %}
+    <li>{{ p.text }}</li>
+    {% endfor %}
+</ul>
